@@ -12,5 +12,8 @@ export default defineNuxtConfig({
       },
     },
   },
+  router: {
+    prefetchLinks: false,
+  },
   css: ["~/assets/css/tailwind.css"],
 });
